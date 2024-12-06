@@ -13,7 +13,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 33px;
 }
 
 .content {
@@ -47,7 +47,7 @@
 }
 
 .skillImageContainer img {
-  width: 70%;
+  width: 90px;
 }
 
 @media screen and (min-width: 830px) {
