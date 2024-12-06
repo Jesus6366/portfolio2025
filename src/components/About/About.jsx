@@ -41,7 +41,7 @@ const About = () => {
               <h3>Full Stack developer</h3>
               <p>
                 I&apos;m a Full Stack developer certified by Academlo, School of
-                Technology and Computer Science. In process of learning more
+                Technology and Computer Science. Currently learning more
                 tools and technologies like TypeScript and Next.js.
               </p>
             </div>
