@@ -1,0 +1,66 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.skillImageContainer img {
+  width: 70%;
+}
+
+@media screen and (min-width: 830px) {
+  .skills {
+    gap: 100px;
+  }
+
+  .skillImageContainer img {
+    width: 140px;
+  }
+
+  .skillImageContainer {
+    width: 170px;
+    height: 170px;
+  }
+}
