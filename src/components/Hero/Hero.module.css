@@ -51,7 +51,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 65%;
   z-index: 1;
   border-radius: 50%;
 
@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 830px) {
   .title {
-    font-size: 62px;
+    font-size: 52px;
   }
   .container {
     flex-direction: column-reverse;
