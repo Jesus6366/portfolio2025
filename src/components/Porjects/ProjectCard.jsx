@@ -23,7 +23,7 @@ const ProjectCard = ({
           Live Demo
         </a>
         <a href={source} className={styles.link}>
-          Source
+          Source Code
         </a>
       </div>
     </div>
