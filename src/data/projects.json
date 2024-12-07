@@ -1,26 +1,41 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "e-commerce",
+    "imageSrc": "projects/ecommerce.png",
+    "description": "This is a project was made to simulate a real e-commerce where you can buy items ",
+    "skills": ["React.js", "Css", "JavaScript", "HTML", "API's"],
+    "demo": "https://jesus6366.github.io/e-commerce-academlo-project/",
+    "source": "https://github.com/Jesus6366/e-commerce-project"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Pokedex",
+    "imageSrc": "projects/pokedex.png",
+    "description": "An application where you can search and see information about your favorite Pokemon!!",
+    "skills": ["React.js", "Redux", "Css", "JavaScript", "HTML", "API's"],
+    "demo": "https://pokedexreactappjesus.netlify.app/#/",
+    "source": "https://github.com/Jesus6366/pokedex_react_app"
   },
   {
-    "title": "Project C",
+    "title": "Rick and Morty Wiki",
+    "imageSrc": "projects/rickandmorty.png",
+    "description": "A Wiki-like application where you can see character from the Rick and Morty series",
+    "skills": ["React.js", "Redux", "Css", "JavaScript", "HTML", "API's"],
+    "demo": "https://kaleidoscopic-torrone-9dd852.netlify.app/",
+    "source": "https://github.com/Jesus6366/rick-and-morty--react-project"
+  },
+  {
+    "title": "RESTful Chat API",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Designed to handle user authentication, user management, and real-time conversations. It utilizes a relational database to manage data and defines routes for different functionalities, including users, authentication, and conversations.",
+    "skills": [
+      "Node.js",
+      "Express.js",
+      "Sequelize",
+      "Cors",
+      "PostgreSQL",
+      "API's"
+    ],
+    "demo": "https://github.com/Jesus6366/rick-and-morty--react-project",
+    "source": "https://github.com/Jesus6366/rick-and-morty--react-project"
   }
 ]

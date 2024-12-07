@@ -19,11 +19,11 @@ const ProjectCard = ({
         ))}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Live Demo
+        <a href={demo} target="_blank" className={styles.link}>
+          Demo
         </a>
-        <a href={source} className={styles.link}>
-          Source Code
+        <a href={source} target="_blank" className={styles.link}>
+          Source
         </a>
       </div>
     </div>
