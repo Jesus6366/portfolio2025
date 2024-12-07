@@ -34,7 +34,7 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 5px;
 }
 
 .link a {
@@ -58,6 +58,6 @@
   }
 
   .links {
-    align-items: center;
+    align-items: start;
   }
 }
