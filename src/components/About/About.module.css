@@ -89,8 +89,13 @@
     margin-top: 29px;
   }
 
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+  .aboutItem.active {
+    background-size: 100% 100%; /* Animate to visible */
+    transform: translateY(0); /* Reset offset */
+  }
+
+  .aboutItem.inactive {
+    background-size: 0 100%; /* Reverse animation */
+    transform: translateY(20px); /* Move back down */
   }
 }
